@@ -9,7 +9,7 @@ import kotlin.system.exitProcess
  * @property precio Precio unitario del producto
  */
 class Producto(
-    private val id: Int,
+    private var id: Int,
     private var nombre: String,
     private var cantidad: Int,
     private var precio: Double
